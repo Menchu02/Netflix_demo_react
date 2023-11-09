@@ -1,0 +1,39 @@
+.movieCardContainer {
+  /* max-width: 250px;  */
+  /* Ancho máximo de cada película */
+  border: 1px solid #ccc; /* Borde alrededor de cada película */
+  border-radius: 8px;
+  background-color: whitesmoke;
+  padding: 10px; /* Espacio interno */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 30px;
+  width: 240px;
+}
+.imgMovieCard {
+  width: 200px; /* Ancho fijo */
+  height: 300px; /* Alto fijo */
+  object-fit: cover; /* Escalar la imagen manteniendo las proporciones */
+  cursor: pointer;
+  transition: tranform 0.3s;
+  border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+
+.imgMovieCard:hover {
+  transform: translateY(-20px);
+}
+.iconsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.icons {
+  font-size: 20px;
+  cursor: pointer;
+}
+.movieCardText {
+  font-size: 17px;
+  font-weight: bold;
+}

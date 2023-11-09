@@ -1,0 +1,23 @@
+.titleNetflix {
+  color: black;
+  font-family: 'Montserrat';
+}
+
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 100px;
+}
+.navBarButton {
+  border: none;
+  color: white;
+  background-color: rgb(231, 150, 11);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+}
