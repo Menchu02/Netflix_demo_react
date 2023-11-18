@@ -3,15 +3,16 @@ import style from './movieForm.module.css';
 import { useNavigate } from 'react-router-dom';
 import movieService from '../../../api_service/movie_service';
 
+//MODELO
 let movieInital = {
   img: '',
   name: '',
   director: '',
   genre: '',
-  movieId: '',
+  id: '',
   year: '',
 };
-//https://pharmamex.com/images/default.png
+
 export default function MovieForm() {
   const [newMovie, setNewMovie] = useState(movieInital);
   const navigator = useNavigate();
