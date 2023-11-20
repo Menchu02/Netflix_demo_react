@@ -33,7 +33,35 @@ const api_base = 'https://63d9187974f386d4efe47837.mockapi.io/movies';
 //     return axios.post(api_base + '/createMovie', data).then((res) => res.data);
 //   },
 // };
+// Parámetros de consulta
+// const params = {
+//   limit: 10, // Obtener los últimos 10 objetos
+// };
 const movieService = {
+  //   getAllCurs() {
+  //     return axios.get(api_base, { params }).then((res) => console.log(res.data));
+  //   },
+  // getAllLastTen() {
+  //   return axios.get(api_base).then((res) => {
+  //     // Ordena los datos por el campo deseado en orden descendente
+  //     const sortedData = res.data.sort(
+  //       (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
+  //     );
+
+  //     // Toma solo los primeros 10 elementos
+  //     const lastTen = sortedData.slice(11, 22);
+
+  //     return lastTen;
+  //   });
+  // },
+  getAllLastTen() {
+    return axios.get(api_base).then((res) => {
+      const slicedData = res.data.slice(11, 22);
+
+      return slicedData;
+    });
+  },
+
   getAllMovies() {
     return fetch(api_base)
       .then((res) => res.json())
