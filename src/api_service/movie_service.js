@@ -1,6 +1,11 @@
 import axios from 'axios';
 
+//APIS MOVIES Y COURSES
 const api_base = 'https://63d9187974f386d4efe47837.mockapi.io/movies';
+const api_base_courses =
+  'https://655c93c025b76d9884fd90f6.mockapi.io/apiCourse';
+
+//LLAMADAS PARA TRABAJAR CON SPRINGBOOT Y H2
 //const api_base = 'http://localhost:8090/api/v1/movie';
 
 // fetch(api_base)
@@ -38,22 +43,7 @@ const api_base = 'https://63d9187974f386d4efe47837.mockapi.io/movies';
 //   limit: 10, // Obtener los últimos 10 objetos
 // };
 const movieService = {
-  //   getAllCurs() {
-  //     return axios.get(api_base, { params }).then((res) => console.log(res.data));
-  //   },
-  // getAllLastTen() {
-  //   return axios.get(api_base).then((res) => {
-  //     // Ordena los datos por el campo deseado en orden descendente
-  //     const sortedData = res.data.sort(
-  //       (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
-  //     );
-
-  //     // Toma solo los primeros 10 elementos
-  //     const lastTen = sortedData.slice(11, 22);
-
-  //     return lastTen;
-  //   });
-  // },
+  //LLAMADA PARA TRAER EN CONCRETO UNOS ITEMS DE LA API
   getAllLastTen() {
     return axios.get(api_base).then((res) => {
       const slicedData = res.data.slice(11, 22);
@@ -62,6 +52,7 @@ const movieService = {
     });
   },
 
+  //LLAMADA HECHA CON UN FETCH CONVENCIONL
   getAllMovies() {
     return fetch(api_base)
       .then((res) => res.json())
@@ -69,6 +60,7 @@ const movieService = {
       .catch((error) => console.error('Error al obtener datos:', error));
   },
 
+  //LLAMADAS CON AXIOS
   getAll() {
     return axios.get(api_base).then((res) => res.data);
   },

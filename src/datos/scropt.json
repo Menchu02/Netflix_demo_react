@@ -1,6 +1,6 @@
 [
   {
-    "name": "The Shawshank Redemption",
+    "name": "The Shawshank Redemptio",
     "img": "https://i.pinimg.com/originals/a2/5b/4a/a25b4ae8e03c4b2ebd06d861a082956a.jpg",
     "director": "Frank Darabont",
     "year": 1994,
@@ -250,3 +250,103 @@
     "id": "25"
   }
 ]
+{
+  "name": "Sales skills",
+  "img": "https://st2.depositphotos.com/1152339/9609/i/450/depositphotos_96099530-stock-photo-advertising-concept-sales-training-on.jpg",
+  "director": "Frank Darabont",
+  "year": 2022,
+  "isFavorite": false,
+  "sinopsis": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "genre": "Formative",
+  "id": "1"
+},
+{
+  "name": "Risks prevention",
+  "img": "https://www.ipeaformacion.com/wp-content/uploads/2019/09/Curso-Basico-Prevencion-Riesgos-Laborales.png",
+  "director": "George Lucas",
+  "year": 2020,
+  "isFavorite": false,
+  "sinopsis": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "genre": "Formative",
+  "id": "2"
+},
+{
+  "name": "Php",
+  "img": "https://www.formadoresit.online/wp-content/uploads/2020/03/php.png",
+  "director": "Joel Schumacher",
+  "year": 2023,
+  "isFavorite": false,
+  "sinopsis": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "genre": "Formative",
+  "id": "3"
+},
+{
+  "name": "ISO quality",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHcRyn46VHEngL-5VZbwHwhZp8Ev5w8niaVShaulMAYrh6Wkoa8YW88qdD5Aa0oJlT1k4&usqp=CAU",
+  "director": "Don Bluth & Gary Goldman",
+  "year": 2020,
+  "isFavorite": false,
+  "sinopsis": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "genre": "Formative",
+  "id": "4"
+},
+{
+  "name": "Accounting",
+  "img": "https://cursosfinanzasdbf.com/wp-content/uploads/2019/09/Contabilidad-online-2-768x768.jpg",
+  "director": "Aleksandr Sokúrov",
+  "year": 2021,
+  "isFavorite": false,
+  "sinopsis": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "genre": "Formative",
+  "id": "5"
+},
+{
+  "name": "Photography",
+  "img": "https://d3puay5pkxu9s4.cloudfront.net/curso/4300/800_imagen.jpg",
+  "director": "Mark Andrews, Brenda Chapman, Steve Purcell",
+  "year": 2012,
+  "isFavorite": false,
+  "sinopsis": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "genre": "Formative",
+  "id": "6"
+},
+{
+  "name": "3D Animation",
+  "img": "https://i.ytimg.com/vi/niCvwQRekfk/maxresdefault.jpg",
+  "director": "Jose Zelada, Richard Claus",
+  "year": 2021,
+  "isFavorite": false,
+  "sinopsis": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "genre": "Formative",
+  "id": "7"
+},
+{
+  "name": "Marketing",
+  "img": "https://d3puay5pkxu9s4.cloudfront.net/curso/4297/800_imagen.jpg",
+  "director": "Guy Ritchie",
+  "year": 2019,
+  "isFavorite": false,
+  "sinopsis": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "genre": "Formative",
+  "id": "8"
+},
+{
+  "name": "Commerce",
+  "img": "https://www.antevenio.com/wp-content/uploads/2017/08/10-cursos-cortos-de-formacion-en-marketing.jpg",
+  "director": "Tim Johnson",
+  "year": 2023,
+  "isFavorite": false,
+  "sinopsis": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "genre": "Formative",
+  "id": "9"
+},
+{
+  "name": "React",
+  "img": "https://www.freecodecamp.org/news/content/images/2022/02/image-76.png",
+  "director": "Carlos Carrera",
+  "year": 2020,
+  "isFavorite": false,
+  "sinopsis": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+  "genre": "Formative",
+  "id": "10"
+}
