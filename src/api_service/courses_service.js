@@ -14,7 +14,7 @@ const coursesService = {
   deleteById(id) {
     return axios.delete(api_base_courses + `/${id}`).then((res) => res.data);
   },
-  createMovie(data) {
+  createCourse(data) {
     return axios.post(api_base_courses, data).then((res) => res.data);
   },
 };
