@@ -2,8 +2,6 @@ import axios from 'axios';
 
 //APIS MOVIES Y COURSES
 const api_base = 'https://63d9187974f386d4efe47837.mockapi.io/movies';
-const api_base_courses =
-  'https://655c93c025b76d9884fd90f6.mockapi.io/apiCourse';
 
 //LLAMADAS PARA TRABAJAR CON SPRINGBOOT Y H2
 //const api_base = 'http://localhost:8090/api/v1/movie';
@@ -75,4 +73,5 @@ const movieService = {
     return axios.post(api_base, data).then((res) => res.data);
   },
 };
+
 export default movieService;

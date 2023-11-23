@@ -1,5 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 export default function CoursList() {
-  return <div>CoursList</div>;
+  const [courses, setCourses] = useState([]);
+
+  useEffect(() => {}, []);
+
+  return <div></div>;
 }
