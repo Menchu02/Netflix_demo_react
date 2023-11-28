@@ -4,11 +4,13 @@ import MovieList from './components/MovieList/MovieList';
 import MovieDetails from './pages/MovieDetails/MovieDetails';
 import Navbar from './components/Navbar/Navbar';
 import MovieForm from './pages/MovieDetails/MovieForm/MovieForm';
+import CoursList from './pages/MovieDetails/CoursList/CoursList';
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
+      <CoursList />
       <Routes>
         <Route path='/movieForm' element={<MovieForm />}></Route>
       </Routes>
