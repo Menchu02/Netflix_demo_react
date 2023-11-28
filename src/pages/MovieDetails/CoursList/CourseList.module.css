@@ -1,0 +1,8 @@
+.coursesListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre las películas */
+  max-width: 1400px; /* Establece el ancho máximo del contenedor */
+  margin: 40px auto; /* Centra el contenedor en la página */
+  justify-content: center; /* Centra los elementos dentro del contenedor */
+}

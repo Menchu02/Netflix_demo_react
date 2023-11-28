@@ -1,0 +1,27 @@
+.courseCardContainer {
+  border: 1px solid #ccc; /* Borde alrededor de cada película */
+  border-radius: 8px;
+  background-color: whitesmoke;
+  padding: 10px; /* Espacio interno */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 30px;
+  width: 240px;
+}
+.imgCourseCard {
+  width: 200px; /* Ancho fijo */
+  height: 300px; /* Alto fijo */
+  object-fit: cover; /* Escalar la imagen manteniendo las proporciones */
+  cursor: pointer;
+  transition: tranform 0.3s;
+  border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+.imgCourseCard:hover {
+  transform: translateY(-20px);
+}
+.headingCourseCard {
+  font-size: 17px;
+  font-weight: bold;
+}
