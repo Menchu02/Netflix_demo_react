@@ -21,3 +21,13 @@
   font-size: 17px;
   font-weight: bold;
 }
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.loginButton {
+  font-size: 30px;
+}
