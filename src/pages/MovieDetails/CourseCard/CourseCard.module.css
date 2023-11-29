@@ -25,3 +25,12 @@
   font-size: 17px;
   font-weight: bold;
 }
+.iconsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.icons {
+  font-size: 20px;
+  cursor: pointer;
+}

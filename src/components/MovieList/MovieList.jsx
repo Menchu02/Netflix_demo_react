@@ -21,10 +21,10 @@ export default function MovieList() {
 
   return (
     <div>
+      <Link to={'/movieForm'}>
+        <button className={styles.addMovieButton}>Add new movie</button>
+      </Link>
       <div className={styles.movieListContainer}>
-        <Link to={'/movieForm'}>
-          <button className={styles.addMovieButton}>Add new movie</button>
-        </Link>
         {movies.map((item) => (
           <MovieCard key={item.id} item={item} deleteById={deleteById} />
         ))}
