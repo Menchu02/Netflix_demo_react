@@ -14,12 +14,14 @@
 .navBarButton {
   border: none;
   color: white;
-  background-color: rgb(231, 150, 11);
-  padding: 20px;
+  background-color: #8c52ff;
+
   border-radius: 10px;
   cursor: pointer;
   font-size: 17px;
   font-weight: bold;
+  width: 100px;
+  height: 30px;
 }
 .buttonsContainer {
   display: flex;
@@ -27,7 +29,16 @@
   justify-content: center;
   align-items: center;
   gap: 80px;
+  margin-left: 40px;
 }
 .loginButton {
-  font-size: 30px;
+  font-size: 50px;
+}
+.imgLogo {
+  width: 375px;
+  height: 110px;
+}
+.buttonContainer {
+  display: flex;
+  gap: 35px;
 }
