@@ -8,8 +8,9 @@ export default function Navbar() {
   return (
     <div className={styles.navbarContainer}>
       <div>
-        {/* <h1 className={styles.titleNetflix}>NetflixDemo</h1> */}
-        <img src={logo} alt='photoLogo' className={styles.imgLogo} />
+        <Link to={'/'}>
+          <img src={logo} alt='photoLogo' className={styles.imgLogo} />
+        </Link>
       </div>
       <div className={styles.buttonsContainer}>
         <div className={styles.buttonContainer}>
