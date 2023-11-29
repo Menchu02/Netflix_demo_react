@@ -13,17 +13,17 @@ export default function Navbar() {
       </div>
       <div className={styles.buttonsContainer}>
         <div className={styles.buttonContainer}>
-          <button className={styles.navBarButton}>Courses</button>
-          <button className={styles.navBarButton}>Movies</button>
+          <Link to={'/coursesList'}>
+            <button className={styles.navBarButton}>Courses</button>
+          </Link>
+          <Link to={'/movieList'}>
+            <button className={styles.navBarButton}>Movies</button>
+          </Link>
         </div>
         <div>
           <FaCircleUser className={styles.loginButton} />
         </div>
       </div>
-
-      {/* <Link to={'/movieForm'}>
-        <button className={styles.navBarButton}>Add movie</button>
-      </Link> */}
     </div>
   );
 }

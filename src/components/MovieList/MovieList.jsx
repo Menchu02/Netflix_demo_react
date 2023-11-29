@@ -3,6 +3,7 @@ import { useState } from 'react';
 import movieService from '../../api_service/movie_service';
 import styles from './MovieList.module.css';
 import MovieCard from '../MovieCard/MovieCard';
+import { Link } from 'react-router-dom';
 
 export default function MovieList() {
   const [movies, setMovies] = useState([]);
@@ -21,6 +22,9 @@ export default function MovieList() {
   return (
     <div>
       <div className={styles.movieListContainer}>
+        <Link to={'/movieForm'}>
+          <button className={styles.addMovieButton}>Add new movie</button>
+        </Link>
         {movies.map((item) => (
           <MovieCard key={item.id} item={item} deleteById={deleteById} />
         ))}
