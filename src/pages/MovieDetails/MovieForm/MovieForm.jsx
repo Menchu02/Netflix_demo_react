@@ -17,6 +17,8 @@ export default function MovieForm() {
   const [newMovie, setNewMovie] = useState(movieInital);
   const navigator = useNavigate();
 
+  //FUNCION GENERICA QUE GUARDA LA CLAVE Y VALOR DE CADA CAMPO
+  //Y LO VA GUARDANDO EN EL ESTADO A TRAVES DE DEL SETNEWMOVIE CREANDO COPIA DE LO Q YA ESTA ESCRITO
   const handleOnChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
@@ -26,6 +28,8 @@ export default function MovieForm() {
   };
 
   const handleSubmit = async (e) => {
+    //E.PREVENTdEFAULT EVITA EL COMPORTAMIENTO POR DEFECTO DE REACT
+    //QUE SERIA RECARGAR LA PAGINA CUANDO SE DA AL BOTON ENVIAR
     e.preventDefault();
     await movieService.createMovie(newMovie);
     navigator('/');
