@@ -22,7 +22,7 @@ export default function MovieList() {
   return (
     <div>
       <Link to={'/movieForm'}>
-        <button className={styles.addMovieButton}>Add new movie</button>
+        <button className={styles.addMovieButton}>Add new moviee</button>
       </Link>
       <div className={styles.movieListContainer}>
         {movies.map((item) => (
